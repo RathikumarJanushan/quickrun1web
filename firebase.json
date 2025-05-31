@@ -1,0 +1,30 @@
+{
+  "flutter": {
+    "platforms": {
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "quicktime-d85b1",
+          "configurations": {
+            "macos": "1:525508908544:ios:9dfe7b99473c3bdbd42ae5",
+            "web": "1:525508908544:web:12b6be4feacac113d42ae5",
+            "windows": "1:525508908544:web:a2bd7a72152ac933d42ae5"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
